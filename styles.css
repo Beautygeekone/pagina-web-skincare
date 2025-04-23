@@ -13,7 +13,7 @@
 
 html{
     font-size:62.5%;
-    font-family: handlee, 'fontsquirrel', cursive;
+    font-family: system-ui; 
 }
 
 *{
@@ -25,6 +25,9 @@ html{
 .container{
     max-width: 120rem;
     margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 .container-hero{ 
@@ -45,6 +48,11 @@ background-color: #EED9C4
 
 }
 
+.logo a{
+    color: #923a82;
+   
+}
+
 .customer-support i{
     font-size: 3.3rem;
     
@@ -53,6 +61,9 @@ background-color: #EED9C4
 .content-customer-support{
     display: flex;
     flex-direction: column;
+    margin-left: 50rem;
+    color: #353839;
+    font-family: system-ui;
 }
 
 .container-logo{
@@ -63,6 +74,7 @@ background-color: #EED9C4
 
 .container-logo i{
     font-size: 3rem;
+    margin-left: 15px;
 
 }
 
@@ -108,14 +120,21 @@ background-color: #EED9C4
 
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 1rem 0;
+    background-color: #ffc5d3;
 
 }
 
 .navbar .fa-bars{
     display: none;
+
+}
+
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 
@@ -133,7 +152,7 @@ background-color: #EED9C4
     text-decoration: none;
     font-size: 1.3rem;
     color: var(--dark-color);
-    font-weight: 600;
+    font-weight: 400;
     text-transform: uppercase;
     position: relative;
 }
@@ -147,6 +166,27 @@ background-color: #EED9C4
     bottom: -3px;
     left: 50%;
     transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease;
 
 
+}
+
+.menu a:hover::after{
+    opacity: 1;
+}
+
+.menu a:hover{
+    color:#fff
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #ff96c5;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 16px;
 }
