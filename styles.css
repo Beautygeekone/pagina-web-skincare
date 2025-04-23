@@ -62,8 +62,12 @@ background-color: #EED9C4
     display: flex;
     flex-direction: column;
     margin-left: 50rem;
-    color: #353839;
+    color: #515455;
     font-family: system-ui;
+    font-size: xx-small;
+    text-transform: uppercase;
+    
+
 }
 
 .container-logo{
@@ -102,16 +106,7 @@ background-color: #EED9C4
     border-right: 1px solid #e2e2e2;
 }
 
-.container-user .fa-basket-shopping{
-    font-size: 3rem;
-    color: var(--dark-color);
-    padding-left: 1rem;
-}
 
-.content-shopping-cart{
-    display:flex;
-    flex-direction: column;
-}
 
 .container-navbar{
     background-color: var(--primary-color);
@@ -189,4 +184,19 @@ input{
     border-radius: 5px;
     padding: 0 15px;
     font-size: 16px;
+}
+
+.fa-brands{
+    position: fixed;
+    margin-left: -10px;
+    margin-top: 2px;
+
+}
+
+.banner{
+    background-image: url('C:\Users\Lucia\Downloads\imgbanner.jpg');
+    height: 60rem;
+    background-size: cover;
+    background-position: center;
+
 }
