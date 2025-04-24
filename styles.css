@@ -1,6 +1,6 @@
 .handlee-regular {
   font-family: "Handlee", cursive;
-  font-weight: 400px;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -106,8 +106,18 @@ background-color: #EED9C4
     border-right: 1px solid #e2e2e2;
 }
 
+.search-form button {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    margin-left: 1rem;
+    font-family: system-ui;
 
-
+}
 .container-navbar{
     background-color: var(--primary-color);
 
@@ -119,6 +129,8 @@ background-color: #EED9C4
     align-items: center;
     padding: 1rem 0;
     background-color: #ffc5d3;
+    margin-left: -10px;
+
 
 }
 
@@ -130,6 +142,13 @@ background-color: #EED9C4
 .container{
     padding-left: 20px;
     padding-right: 20px;
+    max-width: none;
+
+}
+
+.container-navbar{
+    width: 350px;
+    display: inline;
 
 }
 
@@ -193,10 +212,14 @@ input{
 
 }
 
+
+
 .banner{
-    background-image: url('C:\Users\Lucia\Downloads\imgbanner.jpg');
-    height: 60rem;
+    background-image: url('./images/imgbanner.jpg');
+    height: 350px;
+    width: 100vw;
     background-size: cover;
     background-position: center;
-
+    opacity: 1; 
 }
+
