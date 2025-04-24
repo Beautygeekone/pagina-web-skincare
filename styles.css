@@ -33,7 +33,7 @@ html{
 }
 
 .container-hero{ 
-background-color: #fca573
+background-color: #fca573dc
 } 
 
 .hero{
@@ -117,7 +117,7 @@ background-color: #fca573
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
-    color: #d8538a;
+    color: #d8538ac5;
     margin-left: 1rem;
     font-family: system-ui;
 
@@ -198,7 +198,7 @@ background-color: #fca573
 }
 
 .menu a:hover{
-    color:#fff
+    color:#d8538ac5
 }
 
 input{
@@ -235,12 +235,26 @@ input{
 
 }
 
-.banner{ 
-    transition: transform 0.5s;
+
+.content-banner{
+    position: relative;
 }
 
-.banner:hover {
-    transform: scale(1.2);
+.content-banner img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.content-banner h2{
+    color: var(--background-color);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1.2rem;
     
 }
 
