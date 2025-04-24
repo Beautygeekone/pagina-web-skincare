@@ -213,13 +213,12 @@ input{
 }
 
 
-
-.banner{
-    background-image: url('./images/imgbanner.jpg');
+.banner {
+    display: block;
+    width: 100%;
     height: 350px;
-    width: 100vw;
+    background-image: url('./images/imgbanner.jpg');
     background-size: cover;
     background-position: center;
-    opacity: 1; 
+    background-repeat: no-repeat;
 }
-
