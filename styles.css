@@ -33,7 +33,7 @@ html{
 }
 
 .container-hero{ 
-background-color: #fca573dc
+background-color: #fca573d7
 } 
 
 .hero{
@@ -117,7 +117,8 @@ background-color: #fca573dc
     padding: 0.5rem 1rem;
     border-radius: 5px;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 550;
+    font-size: 15px;
     color: #d8538ac5;
     margin-left: 1rem;
     font-family: system-ui;
@@ -205,7 +206,7 @@ background-color: #fca573dc
 }
 
 .menu a:hover{
-    color:#d8538ac5
+    color:#b91763ea
 }
 
 input{
@@ -265,4 +266,11 @@ input{
 
 section {
     margin-top: 1.5rem; 
+}
+
+
+
+.main-content{
+    background-color: #ffc5d3
+
 }
