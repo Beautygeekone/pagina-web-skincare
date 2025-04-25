@@ -272,6 +272,7 @@ section {
 
 .main-content{
     background-color: #bffdc8a6;
+    background: linear-gradient(to left, #ffc5d3 30%, #7ed37f 70%);
     min-height: 1000px; 
    
 
