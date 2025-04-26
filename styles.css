@@ -592,3 +592,48 @@ background-color: #EED9C4
     
 }
 
+.slider-box{
+    width: 780px;
+    height: 400px;
+    margin: 50px auto 0;
+    position: absolute;
+    top: 680px;
+    right: 78px;
+    overflow: hidden;
+    border-radius: 15px;
+    
+}
+
+.slider-box ul{
+    display: flex;
+    padding: 0;
+    margin 0;
+    width: 3900px;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-box li{
+    width: 780px;
+    list-style: none;
+    position: relative;
+
+}
+
+.slider-box img{
+    width: 780px;
+    height: 400px;
+}
+
+@keyframes slide{
+    0% { margin-left: 0; }
+    25% { margin-left: 0; }  
+    30% { margin-left: -100%; }  
+    50% { margin-left: -100%; } 
+    55% { margin-left: -200%; }  
+    75% { margin-left: -200%; }
+    80% { margin-left: -300%; }  
+    100% { margin-left: -300%;} 
+
+
+
+}
