@@ -97,6 +97,58 @@ background-color: #fca573d7
     
 }
 
+#menu-abierto,
+#menu-cerrado {
+  display: none;
+}
+
+.btn-menu {
+  position: auto;
+  top: 105px;
+  left: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #b91763ea;
+  z-index: 2000;
+}
+
+.menu-lateral {
+  position: fixed;
+  top: 0;
+  left: -260px;
+  width: 250px;
+  height: 100%;
+  background-color:rgba(185, 23, 99, 0.8);
+  padding: 60px 20px;
+  transition: left 0.3s ease;
+  z-index: 1999;
+}
+
+#menu-abierto:checked ~ .btn-menu + .menu-lateral {
+  left: 0;
+}
+
+.btn-cerrar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 26px;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-lateral nav label {
+  display: block;
+  margin: 20px 0;
+}
+
+.menu-lateral nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Segoe ui;
+}
+
 .container-user{
     display: flex;
     gap: 1rem;
@@ -166,8 +218,6 @@ background-color: #fca573d7
     justify-content: center;
     margin-top: 2rem;
     box-sizing: border-box;
-    
-
     
 }
 

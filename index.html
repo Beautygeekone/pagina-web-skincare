@@ -30,7 +30,27 @@
             <div class="container-user">
                 <div class="container-navbar">
                     <nav class="navbar container">
-                        <i class="fa-solid fa-bars-staggered"></i>
+                        
+<input type="radio" id="menu-abierto" name="menu" hidden>
+<input type="radio" id="menu-cerrado" name="menu" hidden checked>
+<label for="menu-abierto" class="btn-menu">
+  <i class="fa-solid fa-bars-staggered"></i>
+</label>
+
+<div class="menu-lateral">
+  <label for="menu-cerrado" class="btn-cerrar">
+    <i class="fa-solid fa-xmark"></i>
+  </label>
+
+  <nav>
+    <label for="menu-cerrado"><a href="#">Maquillaje</a></label>
+    <label for="menu-cerrado"><a href="#">Fragancias</a></label>
+    <label for="menu-cerrado"><a href="#">Accesorios</a></label>
+    <label for="menu-cerrado"><a href="#">Favoritos</a></label>
+    <label for="menu-cerrado"><a href="#">Mi cuenta</a></label>
+    <label for="menu-cerrado"><a href="#">Contacto</a></label>
+  </nav>
+</div>                     
                         <ul class="menu">
                             <li><a href="#">Inicio</a></li>
                             <li><a href="#">Serums</a></li>
