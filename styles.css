@@ -702,7 +702,59 @@ background-color: #EED9C4
     75% { margin-left: -200%; }
     80% { margin-left: -300%; }  
     100% { margin-left: -300%;} 
-
-
-
 }
+
+#contacto {
+    position: absolute;
+    top: 1200px; 
+    right: auto;     
+    left: 450px; 
+    right: 50px;
+    width: 400px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: serif;
+  }
+  
+  #contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contacto label {
+    font-weight: bold;
+    font-family: serif;
+  }
+  
+  #contacto .btn {
+    background-color: #b91763;
+    border: none;
+    padding: 10px 20px;
+    transition: background 0.3s;
+    font-family: serif; 
+  }
+  
+  #contacto .btn:hover {
+    background-color: #93114c;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .menu a:hover {
+    color: #b91763;
+  }
