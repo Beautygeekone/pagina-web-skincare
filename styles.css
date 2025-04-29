@@ -475,7 +475,7 @@ section {
     margin-top: 1.7rem;
     margin-bottom: 0.5rem;
     margin-left: 2rem;
-    color: #b91763;
+    color: #333233;
 }
 
 .heading-2{
@@ -693,7 +693,7 @@ html{
 
 #contacto {
     position: absolute;
-    top: 1200px; 
+    top: 1150px; 
     right: auto;     
     left: 450px; 
     right: 50px;
@@ -730,5 +730,4 @@ html{
   #contacto .btn:hover {
     background-color: #93114c;
   }
-  
   
