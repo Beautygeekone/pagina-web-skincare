@@ -302,6 +302,7 @@ input{
     width: 100vw;
     height: 500px;
     object-fit: cover;
+    background-size: contain;
 
 }
 
