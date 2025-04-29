@@ -212,6 +212,9 @@ background-color: #fca573d7
 
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 .menu{
     display: flex;
     gap: 2rem;
