@@ -97,8 +97,8 @@ background-color: #fca573d7
     
 }
 
-#menu-abierto,
-#menu-cerrado {
+#menu-opened,
+#menu-closed {
   display: none;
 }
 
@@ -124,11 +124,11 @@ background-color: #fca573d7
   z-index: 1999;
 }
 
-#menu-abierto:checked ~ .btn-menu + .menu-lateral {
+#menu-opened:checked ~ .btn-menu + .menu-lateral {
   left: 0;
 }
 
-.btn-cerrar {
+.btn-close {
   position: absolute;
   top: 20px;
   right: 20px;
