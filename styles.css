@@ -1,17 +1,16 @@
-<<<<<<< HEAD
+ HEAD
 
 
 .handlee-regular {
   font-family: "Handlee", cursive;
   font-weight: 400;
-  font-style: normal;
+  font-style: normal; 
 }
 
 :root{ 
     --primary-color: #ffc5d3;
     --background-color: #d3d3d3;
     --dark-color: #353839;
-
 }
 
 html{
@@ -34,7 +33,7 @@ html{
 }
 
 .container-hero{ 
-background-color: #fca573d7
+background-color: #fda776d7
 } 
 
 .hero{
@@ -487,15 +486,7 @@ section {
     margin-top: 1.7rem;
     margin-bottom: 0.4rem;
     margin-left: 0.2rem;
-    color: #b91763;
-}
-
-
-=======
-.handlee-regular {
-  font-family: "Handlee", cursive;
-  font-weight: 400px;
-  font-style: normal;
+    color: #333233;
 }
 
 :root{ 
@@ -520,10 +511,6 @@ html{
     max-width: 120rem;
     margin: 0 auto;
 }
-
-.container-hero{ 
-background-color: #EED9C4
-} 
 
 .hero{
     display: flex;
@@ -728,7 +715,7 @@ background-color: #EED9C4
   }
   
   #contacto label {
-    font-weight: bold;
+    font-weight: light;
     font-family: serif;
   }
   
@@ -744,17 +731,4 @@ background-color: #EED9C4
     background-color: #93114c;
   }
   
-  .menu li {
-    display: inline-block;
-    margin-right: 20px;
-  }
   
-  .menu a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  .menu a:hover {
-    color: #b91763;
-  }
