@@ -225,7 +225,6 @@ html {
 }
 
 
-
 .menu li{
     list-style: none;  
     margin-bottom: 0.7rem;
@@ -321,7 +320,6 @@ input{
 section {
     margin-top: 1.5rem; 
 }
-
 
 
 .main-content{
@@ -477,6 +475,18 @@ section {
     text-align: left;
     margin-top: 1.7rem;
     margin-bottom: 0.5rem;
+    margin-left: 2rem;
+    color: #b91763;
+}
+
+.heading-2{
+    font-size: 2rem;
+    font-family: segoe script;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 1.7rem;
+    margin-bottom: 0.4rem;
+    margin-left: 0.2rem;
     color: #b91763;
 }
 
@@ -658,13 +668,15 @@ background-color: #EED9C4
     right: 78px;
     overflow: hidden;
     border-radius: 15px;
+    max-width: none;
+    min-width: 780px;
     
 }
 
 .slider-box ul{
     display: flex;
     padding: 0;
-    margin 0;
+    margin: 0;
     width: 3900px;
     animation: slide 20s infinite alternate ease-in-out;
 }
